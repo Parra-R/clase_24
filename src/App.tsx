@@ -1,14 +1,21 @@
 import './App.css'
-import Server from './components/Server/Server'
+import StockBadge from './components/StockBadge/StockBadge'
+import PlanCard from './components/PlanCard/PlanCard'
+
 
 function App() {
 
 
   return (
     <>
-      <Server serverName='Web principal' status='online'></Server>
-      <Server serverName='Base de Datos' status='online'></Server>
-      <Server serverName='Api de Pago' status='offline'></Server>
+      <StockBadge productName='Monitor' quantity= {4}></StockBadge>
+      <StockBadge productName='Teclado' quantity= {0}></StockBadge>
+      <StockBadge productName='Raton' quantity= {20}></StockBadge>
+
+
+      <PlanCard nombrePlan='Básico' precio={5} esPopular></PlanCard>
+      <PlanCard nombrePlan='Medio' precio={20} esPopular= {false}></PlanCard>
+
     </>
   )
 }

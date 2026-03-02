@@ -1,5 +1,4 @@
 import './Server.css'
-import React from 'react'
 
 // Vamos a definir el contrato estricto
 
@@ -9,6 +8,7 @@ interface StatusProps{
 }
 
 const Server = (props:StatusProps) => {
+
     // Determinar dinámicamente la clase css
     const statusClass = props.status === 'online' ? 'status-online': 'status-offline'
 

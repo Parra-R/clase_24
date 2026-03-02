@@ -1,0 +1,29 @@
+/* Estilo Base */
+.badge-container{
+    border: 1px solid #ccc;
+    border-radius: 8 px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+/* Estilo 0 */
+
+.sold-out{
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+    color:#9e9e9e;
+}
+
+/* Estilo 1-10 */
+
+.critical{
+    background-color: #fff3e0;
+    color:#ff9800;
+    border-color: #e65100;
+}
+
+/* Estilo <10 */
+.normal{
+    background-color: #375cff;
+}

@@ -1,0 +1,27 @@
+/* Estilo Base */
+.plan-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+/* Es true */
+
+.outstanding{
+    border: 3px solid #19004d;
+
+    transform: scale(1.05);
+
+    box-shadow: 0px 10px 20px rgba(90, 0, 238, 0.2);
+}
+
+.label-popular{
+    background-color: blue;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+}
