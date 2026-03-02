@@ -16,7 +16,7 @@ const StockBadge = (props:StockProps) => {
         message = "Producto agotado"
     }else if (props.quantity <= 10){
         ClassState = "critical"
-        message = `!Solo quedan ${props.quantity}`
+        message = `¡Solo quedan ${props.quantity}!`
     } 
 
   return (
